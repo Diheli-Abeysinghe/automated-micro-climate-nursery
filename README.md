@@ -108,6 +108,17 @@ Autonomous control remains local to the ESP32.
 
 https://wokwi.com/projects/475381934405977089
 
+## Security
+Wi-Fi credentials and ThingSpeak API credentials have intentionally
+been excluded from the public source code. Users must provide their
+own credentials before deploying the system.
+
+## ThingSpeak Monitoring
+
+The prototype uploads environmental measurements and actuator states
+to ThingSpeak at approximately 20-second intervals.
+
+
 ## Repository Structure
 
 ```text
